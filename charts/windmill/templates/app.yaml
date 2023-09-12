@@ -157,8 +157,7 @@ spec:
     targetPort: 8000
   selector:
     app.kubernetes.io/name: windmill-app
-  sessionAffinity: ClientIP
-  type: ClusterIP
+  type: LoadBalancer
 ---
 apiVersion: v1
 kind: Service
