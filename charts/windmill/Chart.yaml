@@ -30,4 +30,4 @@ maintainers:
     name: windmill
     url: https://www.windmill.dev/
 sources:
-  - https://github.com/windmill-labs/windmill-helm-charts.git
+  - https://github.com/isc-patrick/windmill-svc.git
